@@ -1,7 +1,15 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: My Everyday Carry
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+
+<main class="home">
+<h2>Things I <span class="accent">Never</span> Leave Home Without</h2>
+<p>Here are three items I carry with me every day. Each one is essential!</p>
+<ul>
+  {% navItem "My Glasses", "/glasses/" %}
+  {% navItem "My Phone", "/phone/" %}
+  {% navItem "My Keys", "/keys/" %}
+</ul>
+</main>
